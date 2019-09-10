@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+}
+
+.app__container {
+  font-family: 'Roboto', 'sans-serif';
+  width: 100%;
+}
+
+.app__header {
+  background-image: url('../img/bg-1.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: #FFFFFF;
+  padding-bottom: 5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.header__title {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px #000;
+  text-transform: uppercase;
+}
+
+.app__section {
+  margin-bottom: 4rem;
+}
+
+.app__feature {
+  background-color: #F2F2F2;
+  margin-bottom: 2.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.feature__image {
+  width: 100%;
+}
+
+.feature__title--green {
+  color: #178A27;
+}
+
+.feature__title--blue {
+  color: #1686C1;
+}
+
+.feature__title--gray {
+  color: #666666;
+}
+
+.feature__description {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.feature__button {
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  padding: 10px 30px;
+}
+
+.feature__button--green {
+  background-color: #178A27;
+}
+
+.feature__button--blue {
+  background-color: #1686C1;
+}
+
+.feature__button--red {
+  background-color: #852406;
+}
+
+.feature__button--gray {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+  color: #666666;
+}
+
+.app__services {
+  background-image: url('../img/bg-2.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: #FFFFFF;
+  padding-bottom: 5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.services__title {
+  font-size: 2rem;
+  text-shadow: 2px 2px #aaa;
+}
+
+.services__description {
+  font-size: 1.25rem;
+}
+
+.app__testimonial {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
